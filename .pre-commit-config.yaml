@@ -9,6 +9,8 @@ repos:
       - id: terraform_tflint
         exclude: '^example/.*$'
       - id: terraform_docs
+        args:
+          - --args=--config=.terraform-docs.yml terraform
       - id: terraform_tfsec
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
