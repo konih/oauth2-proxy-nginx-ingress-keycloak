@@ -9,3 +9,7 @@ for those applications using nginx ingress and oauth2 proxy. All of the code wil
 ## Prerequisites
 
 As a precondition let's assume you already own a kubernetes cluster using the nginx ingress controller. I then installed keycloak using the bitnami helm chart and the following terraform module.
+
+## Deploying the required keycloak resources
+
+Let's start by creating a keycloak realm and a test user.
